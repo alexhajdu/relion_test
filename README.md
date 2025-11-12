@@ -10,6 +10,11 @@ Thanks for the opportunity to work on this task. It was quite stressful TBH and 
 - I had issues packaging on my current Mac computer, so I hope this repo is enough. I can showcase if needed.
 - Organization is much messier than it would be normally
 
+## Result
+- ![Nov-12-2025 12-43-11](https://github.com/user-attachments/assets/7e5de939-0224-438a-a27d-5d3e74034eab)
+
+---
+
 ## Approach
 
 ### IREInteractableInterface
