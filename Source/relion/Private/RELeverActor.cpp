@@ -17,11 +17,6 @@
 #include "Kismet/KismetMathLibrary.h"
 #include "Net/UnrealNetwork.h"
 
-bool ARELeverActor::ShouldTickIfViewportsOnly() const
-{
-	return true;
-}
-
 ARELeverActor::ARELeverActor()
 {
 	PrimaryActorTick.bCanEverTick = true;
@@ -77,6 +72,11 @@ void ARELeverActor::Tick(float DeltaSeconds)
 	{
 		UpdateDebugAppearance();
 	}
+}
+
+bool ARELeverActor::ShouldTickIfViewportsOnly() const
+{
+	return true;
 }
 
 void ARELeverActor::BeginPlay()
