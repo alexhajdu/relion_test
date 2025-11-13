@@ -274,18 +274,20 @@ void ARELeverActor::UpdateLeverText() const
 
 void ARELeverActor::UpdateDebugAppearance() const
 {
-	if (BillboardComponent)
+	// Guard
+	if (!BillboardComponent || !LineBatchComponent)
 	{
-		BillboardComponent->SetVisibility(ConnectedActor ? false : true);
+		return;
 	}
 
+	// We use this TRex in gameplay too
+	BillboardComponent->SetVisibility(ConnectedActor ? false : true);
+
 #if WITH_EDITOR
-	// Show indicator if there are no connection defined for this switch
-	if (LineBatchComponent && ConnectedActor)
+	LineBatchComponent->Flush();
+	if (ConnectedActor)
 	{
-		LineBatchComponent->Flush();
-		LineBatchComponent->DrawLine(GetActorLocation(), ConnectedActor->GetActorLocation(), FColor::Green, SDPG_World,
-		                             2.0f, 0.0f, 0.0f);
+		LineBatchComponent->DrawLine(GetActorLocation(), ConnectedActor->GetActorLocation(), FColor::Green, SDPG_World, 2.0f, 0.0f, 0.0f);
 	}
 #endif
 }
