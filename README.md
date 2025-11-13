@@ -33,10 +33,10 @@ Both are implementing `IREInteractableInterface`, but one is done in C++, and on
 ### Lever
 - Create BP from <img width="726" height="632" alt="Screenshot 2025-11-12 at 12 24 19" src="https://github.com/user-attachments/assets/462833ba-e123-4649-9bb3-5192256e7808" />
 - Use this properties to define connected actor and basic appearance setup. <img width="639" height="222" alt="Screenshot 2025-11-12 at 12 25 38" src="https://github.com/user-attachments/assets/eb9afaa1-2738-40a7-be85-efeb61932951" /> For setting SM or sound use settings on the corresponding components.
-- If there is no actor associated with the lever, you will see TRex. Otherwise the line will be presented to see what actor is assigned for the lever.
+- If there is no actor associated with the lever, you will see TRex. Otherwise, the line will be presented to see what actor is assigned for the lever.
 - ![Nov-12-2025 12-28-45](https://github.com/user-attachments/assets/fdbd5a9c-1fa3-4373-8d01-380aed16f982)
 
 ### Interactables
-- Create Actor BP and implement interface <img width="640" height="118" alt="Screenshot 2025-11-12 at 12 31 19" src="https://github.com/user-attachments/assets/4c7c9ccd-379c-4a59-9048-1d5b09010015" />
-<img width="629" height="457" alt="Screenshot 2025-11-12 at 12 31 24" src="https://github.com/user-attachments/assets/8d58e0c2-f2c6-4102-b51e-7ae06b8c5ebd" />
+- Create Actor BP and implement interface
+- <img width="640" height="118" alt="Screenshot 2025-11-12 at 12 31 19" src="https://github.com/user-attachments/assets/4c7c9ccd-379c-4a59-9048-1d5b09010015" /><img width="637" height="338" alt="Screenshot 2025-11-13 at 09 47 52" src="https://github.com/user-attachments/assets/7dca78e2-d5bd-483a-91b9-89e849f81769" />
 - Then this actor, once placed in the world and attached to the lever as `ConnectedActor` will do the job for you.
