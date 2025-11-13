@@ -34,7 +34,7 @@ Both are implementing `IREInteractableInterface`, but one is done in C++, and on
 - Create BP from <img width="726" height="632" alt="Screenshot 2025-11-12 at 12 24 19" src="https://github.com/user-attachments/assets/462833ba-e123-4649-9bb3-5192256e7808" />
 - Use this properties to define connected actor and basic appearance setup. <img width="639" height="222" alt="Screenshot 2025-11-12 at 12 25 38" src="https://github.com/user-attachments/assets/eb9afaa1-2738-40a7-be85-efeb61932951" /> For setting SM or sound use settings on the corresponding components.
 - If there is no actor associated with the lever, you will see TRex. Otherwise, the line will be presented to see what actor is assigned for the lever.
-- ![Nov-12-2025 12-28-45](https://github.com/user-attachments/assets/fdbd5a9c-1fa3-4373-8d01-380aed16f982)
+- ![Nov-13-2025 12-00-03](https://github.com/user-attachments/assets/a111ad4c-8699-4eb2-aa97-317533e29629)
 
 ### Interactables
 - Create Actor BP and implement interface
