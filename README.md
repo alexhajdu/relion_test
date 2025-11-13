@@ -1,7 +1,7 @@
 # ReLion test
 
 ## Intro
-Thanks for the opportunity to work on this task. It was quite stressful TBH and noted to say there are any other options to accomplish it in a different or/and better way. I chose this one, there was no time to change, so here we go :)
+Thanks for the opportunity to work on this task. It was quite stressful TBH and noted to say there are many other options to accomplish it in a different or/and better way. I chose this one, there was no time to change, so here we go :)
 
 ### Notes:
 - See ///@note in the code - I have some thoughts in the code
